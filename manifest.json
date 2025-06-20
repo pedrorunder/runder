@@ -1,0 +1,48 @@
+{
+  "name": "Runder",
+  "short_name": "Runder",
+  "description": "Plataforma de estudos e preparação para provas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait",
+  "categories": ["education", "productivity"],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Questões",
+      "short_name": "Questões",
+      "description": "Acessar questões",
+      "url": "/questoes",
+      "icons": [{ "src": "/icons/questoes.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Redação",
+      "short_name": "Redação",
+      "description": "Acessar redação",
+      "url": "/redacao",
+      "icons": [{ "src": "/icons/redacao.png", "sizes": "192x192" }]
+    }
+  ]
+} 
